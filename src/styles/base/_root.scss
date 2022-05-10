@@ -1,0 +1,24 @@
+:root {
+	/* Colors */
+	--color-bg-primary: hsl(0, 0%, 0%);
+	--color-bg-button: hsl(120, 100%, 36%);
+	--color-bg-textbox: hsl(120, 100%, 36%);
+	--color-bg-textbox-disabled: hsl(0, 2%, 64%);
+
+	/* Border Color */
+	--color-border: hsl(0, 0%, 0%);
+
+	/* Font Color */
+	--color-font-primary: hsl(120, 100%, 36%);
+	--color-font-secondary: hsl(0, 0%, 0%);
+
+	/* Font Families */
+	--font-family: 'Press Start 2P', cursive;
+
+	/* Font Size */
+	--font-size-body: clamp(1.3rem, 1.175rem + 0.5208vw, 1.8rem);
+	--h1: clamp(2rem, 1.75rem + 1.0417vw, 3rem);
+
+	/* Font Weights */
+	--font-weight-400: 400;
+}

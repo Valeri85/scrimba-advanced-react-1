@@ -1,0 +1,7 @@
+@use '../helpers/mixins' as *;
+
+body {
+	padding: 1em;
+	background-color: var(--color-bg-primary);
+	text-align: center;
+}

@@ -1,0 +1,20 @@
+@use '../helpers/functions' as *;
+
+.main__textbox {
+	display: block;
+	width: 90%;
+	height: em(200);
+	margin: auto auto 1em auto;
+	padding: 0.5em;
+	background: var(--color-bg-textbox);
+	border: em(3) solid var(--color-border);
+	outline: none;
+}
+
+.main__textbox::placeholder {
+	color: var(--color-font-secondary);
+}
+
+.main__textbox:disabled {
+	background-color: var(--color-bg-textbox-disabled);
+}

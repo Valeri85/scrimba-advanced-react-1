@@ -1,0 +1,16 @@
+@use '../helpers/functions' as *;
+@use '../helpers/mixins' as *;
+
+.main__button {
+	display: block;
+	margin: 1em auto;
+	padding: em(20) em(30);
+	background-color: var(--color-bg-button);
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.main__button:disabled {
+	cursor: not-allowed;
+}

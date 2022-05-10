@@ -1,0 +1,8 @@
+@use 'breakpoints' as *;
+
+// Media query for desktop
+@mixin ipad {
+	@media screen and (min-width: $ipad) {
+		@content;
+	}
+}

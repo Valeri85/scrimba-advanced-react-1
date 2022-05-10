@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 export const Main = _ => {
-	const START_TIME = 3;
+	const START_TIME = 15;
 	const [isGame, setIsGame] = useState(false);
 	const [text, setText] = useState('');
 	const [time, setTime] = useState(START_TIME);
